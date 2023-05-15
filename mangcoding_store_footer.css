@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    color: #F4F4F4;
+    font-family: poppins;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins.ttf);
+}
+
+body {
+    background-color: #393E46;
+}
+
+footer {
+    display: flex;
+    margin-top: 260px;
+}
+
+.left-section {
+    margin-left: 80px;
+}
+
+.logo-img {
+    width: 147px;
+    height: 33px;
+}
+
+.lorem-text, li {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right-section {
+    display: flex;
+    margin-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+li {
+    padding-top: 6px;
+}
